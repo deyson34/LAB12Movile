@@ -67,6 +67,7 @@ secrets {
 
 
 dependencies {
+    implementation(libs.play.services.location)
     val mapsComposeVersion = "4.4.1"
     // Google Maps Compose
     implementation("com.google.maps.android:maps-compose:$mapsComposeVersion")
